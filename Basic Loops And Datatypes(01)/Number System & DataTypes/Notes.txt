@@ -1,0 +1,23 @@
+NUMBER SYSTEM :
+
+    => Decimal Number (0 to 9)
+        Largest 3 digit number : 10^3 - 1 = 999
+        Smallest 3 digit number : 10^(3-1) = 10^2 = 100
+
+    => Binary Number (0 to 1)
+        Largest 3 digit number : 2^3 - 1 = 111 ,(Which is 7 in Decimal.)
+        Smallest 3 digit number : 2^(3-1) = 2^2 = 100 (which is 4 in Decimal.)
+
+    => Octal Number (0 to 7)
+        Largest 3 digit number : 8^3 - 1 = 777 (which is 511 in Decimal.)
+        Smallest 3 digit number : 8^(3-1) = 8^2 = 100 (which is 64 in Decimal.)
+
+    => HexaDecimal Number (0 to F)
+        Largest 3 digit number : 16^3 - 1 = FFF (hich is 4095 in Decimal.)
+        Smallest 3 digit number : 16^(3-1) = 16^2 = 100 (which is 256 in Decimal.)
+
+
+======================================= Number Conversion 
+=======================================
+
+NOTE : To store characters, we need a ASCII value corresponding to it.
