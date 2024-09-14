@@ -1,0 +1,33 @@
+STRING BUILDER IN JAVA :
+
+String Builder is a predefined class in Java.
+
+During the Addition of any string,charachter..
+    -> In String a new String is created at another memory location,
+    -> But in StringBuilder the character or String is added at the smae memory location.
+
+Note : StringBuilder can append any type of value, It may be character, may be strin, may be Integer, may boolean etc..
+
+Initially, the StringBuilder has the some amount of capacity, after the completely filling this capacity, its size will increase.
+It's capacity increases by : 2*(previous_length+1)
+
+// Declaring the StringBuilder..
+    StringBuilder sb = new StringBuilder();
+
+IMPORTANT : We can check its capacity by using sb.capacity() method
+        -> It's default capacity is 16.
+        -> Values can be added in it, by using sb.append() method.
+
+        // To check the length of StringBuilder
+            sb.length() method is used..
+        
+        // To reverse the value
+            sb.reverse() method will be used..
+
+        // To convert this StringBuilder datatype into String
+            sb.toString() method.
+
+        // We can get the substring of StringBuilder
+            sb.substring(start,end);
+
+IMPORTANT NOTE : All the tasks that can be done by String, these all tasks can also be done by using StringBuilder.

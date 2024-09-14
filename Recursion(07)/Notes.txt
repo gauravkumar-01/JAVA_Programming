@@ -1,0 +1,25 @@
+Function calling itself with smaller subproblem and having a base condition..
+
+A recursive function must have the following 3 steps :
+    --> Base Case
+    --> Function Calling (with smaller sub-problem)
+    --> Answer Calculation/Printing
+
+
+If last statement of the function is recursive call then it is "tail recursion".
+
+If last statement is not a recursive call or any operation is being performed then it is "Head Recursion".
+
+Recursive function se aane ke bad agr koi bhi operation perform ho rha hai to ye Head Recursion hai.....
+
+
+// IMPORTANT QUESTIONS
+
+-> Longest Unique Character's Substring
+-> Regular Expression Matching
+
+
+// ------------------------------------------------------------------------------
+
+static variable global variable hota hai,
+It will declare inside class, (not inside any method).
